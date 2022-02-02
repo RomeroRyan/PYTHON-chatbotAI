@@ -1,0 +1,62 @@
+{"intents": [
+    {"topic": "greetings",
+      "keywords": ["hey", "hi", "hello", "whats up", "Anyone there", "Sup", "Hey there", "Morning", "Afternoon", "howdy"],
+      "responses": ["Bot: Hello! How can I help?", "Bot: Hey there!", "Bot: What can I do for you?"],
+      "context": [""]
+    },
+    {"topic": "bye",
+      "keywords": ["bye", "later", "cya", "see ya", "thank you", "Thanks for helping me", "Awesome, thanks", "perfect"],
+      "responses": ["Bot: Thanks for talking to me! Have a great day!"],
+      "context": [""]
+    },
+    {
+      "topic": "name",
+      "keywords": ["your name", "huh", "you", "who"],
+      "responses": ["Bot: I am the CSUF Portal Bot! I can help answer questions about the CSUF Portal!"],
+      "context": [""]
+    },
+    {
+      "topic": "find class",
+      "keywords": ["my classes", "see", "find", "class", "courses", "course"],
+      "responses": ["Bot: Log into the CSUF Portal and follow these instructions to view your classes: \n1. Click on Titan Online icon on the top right (cube icon) \n2. Click on 'Student Homepage' to open your student profile \n3. Click on 'Manage Classes' to view classes your currently taking"],
+      "context": [""]
+    },
+    {
+      "topic": "advising",
+      "keywords": ["academic adiving", "advisor", "advise", "guide", "schedule", "appointment"],
+      "responses": ["Bot: For general academic adivising, log into CSUF Portal and follow these instructions: \n1. On the left search bar and search 'advising' to reduce options in USER APPS \n2. Click on the 'Academic Adivising Student' under USER APPS \n3. Click on 'Virtual Academic Advising Center' to arrive at the Academic Advising Center webpage. \n  Appointments and pop-in adivising are available here \n \nFor department specific academic advising, your have better luck doing the following: \n1. Go on your prefered search engine \n2. Search up 'CSUF', your department, and 'academic advising' and clicking on the first CSUF link. \n3. On your department homepage you can find a place to schedule an appointment"],
+      "context": [""]
+    },
+    {
+      "topic": "calendar",
+      "keywords": ["days off", "academic calendar", "break", "holidays", "no school"],
+      "responses": ["Bot: You can view the academic calendar here: \nhttps:\/\/apps.fullerton.edu\/AcademicCalendar"],
+      "context": [""]
+    },
+    {
+      "topic": "canvas",
+      "keywords": ["my canvas", "canvas"],
+      "responses": ["Bot: Log into the CSUF Portal and use this link to get to your canvas dashboard: \nhttps:\/\/csufullerton.instructure.com"],
+      "context": [""]
+    },
+    {
+      "topic": "counseling",
+      "keywords": ["counseling", "depression", "stress", "not feeling good", "schedule", "appointment"],
+      "responses": ["BOT: If you like to schedule an appointment with a CSUF councelor, call the Counseling & Psychology Service number: (657) 278-3040. \n \nWe offer counseling for individial, couple, group, psychiatric and crisis. \nFor more information visit: https:\/\/www.fullerton.edu\/caps\/services\/appointments\/appointment.php \n \nIf you need help immediately, call (800) 273-8255 for Natioanl Suicide Prevention Lifeline."],
+      "context": [""]
+    },
+    {
+      "topic": "parking available",
+      "keywords": ["parking", "parking spaces", "parking situation", "nutwood structure", "state college structure", "eastside structure", "lot A or Lot G"],
+      "responses": ["Bot: You can view the available parking here: \nhttps:\/\/parking.fullerton.edu\/ParkingLotCounts\/mobile.aspx"],
+      "context": [""]
+    },
+    {
+     "topic": "parking service",
+     "keywords": ["parking permit", "parking citation", "appeal", "car", "register vehicle"],
+     "responses": ["Bot: Log into the CSUF Portal and use this link to go to the Parking Portal: \nhttps:\/\/csufparking.t2hosted.com\/Account\/Portal \n \nHere you can view parking services: permits, parking citations, and vehicle registration"],
+     "context": [""]
+   }
+
+
+]}
