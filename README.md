@@ -5,6 +5,7 @@
 
 # Project Description
 We created an AI bot that users can ask questions specifically about the CSUF portal to help navigate through the website. Instead of students struggling through the website seeking out what they need, users can ask the bot questions; The bot will responds with the information needed or straightforward instructions to get to where the user needs.
+
 To respond to the users questions, the bot will take the user’s question string, analyze for certain keywords. With these keywords, it determines what the user may be asking and spit out text responding to the user’s inquiry. If the bot does not have sufficient keywords to pinpoint a proper response, it will ask the user to try asking again.
 
 
